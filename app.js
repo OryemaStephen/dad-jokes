@@ -18,15 +18,11 @@ async function addDadJokes(){
         showJoke.innerText = data.joke;
     } catch(error){
         console.error('Error :', error)
-    }
-      
+    }      
 }
 
 //call function
 addDadJokes();
 
 //add click event to change jokes
-addJokeBtn.addEventListener('click', addDadJokes)
-
-
-
+addJokeBtn.addEventListener('click', addDadJokes);
